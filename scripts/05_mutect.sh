@@ -8,11 +8,11 @@
 #SBATCH -e mutect2_launcher.err
 
 # Paths
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 DEDUP="${BASEDIR}/deduplicated_rg"
 IMAGES="${ROOT}/images"
-REF="${ROOT}/db_files/Genomes/Ensembl/human/hg19/release-75/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa"
+REF="${ROOT}/.../hg19/release-75/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa"
 BED="${BASEDIR}/input_data/S000021_hg19_targets.bed"
 OUTDIR="${BASEDIR}/variants"
 LOGDIR="${BASEDIR}/logs/mutect2"
