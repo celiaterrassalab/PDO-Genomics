@@ -8,8 +8,8 @@
 #SBATCH -e add_rg_launcher.err
 
 # Paths
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 DEDUP="${BASEDIR}/deduplicated"
 IMAGES="${ROOT}/images"
 OUTDIR="${BASEDIR}/deduplicated_rg"
