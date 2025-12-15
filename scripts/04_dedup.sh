@@ -8,8 +8,8 @@
 #SBATCH -e dedup_launcher.err
 
 # Paths
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 ALIGN="${BASEDIR}/alignment"
 IMAGES="${ROOT}/images"
 OUTDIR="${BASEDIR}/deduplicated"
