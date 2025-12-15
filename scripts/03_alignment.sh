@@ -8,11 +8,11 @@
 #SBATCH -e align_launcher.err
 
 # Paths
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 TRIMMED="${BASEDIR}/trimmed"
 IMAGES="${ROOT}/images"
-REF="/projects/cancer/db_files/Genomes/Ensembl/human/hg19/release-75/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa"
+REF=".../hg19/release-75/Homo_sapiens.GRCh37.75.dna.primary_assembly.fa"
 OUTDIR="${BASEDIR}/alignment"
 LOGDIR="${BASEDIR}/logs/align"
 
