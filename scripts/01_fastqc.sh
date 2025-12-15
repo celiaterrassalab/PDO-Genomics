@@ -8,8 +8,8 @@
 #SBATCH -e fastqc_launcher.err
 
 # Paths
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 RAWDATA="${BASEDIR}/input_data"
 IMAGES="${ROOT}/images"
 OUTPUT_DIR="${BASEDIR}/qc/fastqc_raw"
