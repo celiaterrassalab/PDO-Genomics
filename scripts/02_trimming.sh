@@ -8,8 +8,8 @@
 #SBATCH -e trim_launcher.err
 
 # Variables
-ROOT="/projects/cancer"
-BASEDIR="${ROOT}/HelenaBrunel/Chiara_DNA_CEGAT"
+ROOT=""
+BASEDIR="${ROOT}/"
 RAWDATA="${BASEDIR}/input_data"
 IMAGES="${ROOT}/images"
 OUTPUT_DIR="${BASEDIR}/trimmed"
